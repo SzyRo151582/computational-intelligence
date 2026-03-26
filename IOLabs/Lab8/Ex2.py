@@ -1,0 +1,5 @@
+import numpy
+
+ten_successful_attempts = [0.011826753616333008, 0.015262126922607422, 0.015132904052734375, 0.013094902038574219, 0.01585674285888672, 0.014125347137451172, 0.012772321701049805, 0.01492929458618164, 0.015932559967041016, 0.015369892120361328]
+average_time = numpy.sum(ten_successful_attempts) / len(ten_successful_attempts)
+print(f"Average time of a 10 successful attempts is: {average_time}.")
